@@ -143,7 +143,7 @@
         <property name="User Object Class">person</property>
         <property name="User Search Scope">ONE_LEVEL</property>
         <property name="User Search Filter">{{.Values.auth.ldap.searchFilter}}</property>
-        <property name="User Identity Attribute">{{.Values.auth.ldap.UserIdentityAttribute}}</property>
+        <property name="User Identity Attribute">{{.Values.auth.ldap.userIdentityAttribute}}</property>
         <property name="User Group Name Attribute"></property>
         <property name="User Group Name Attribute - Referenced Group Attribute"></property>
         <property name="Group Search Base"></property>
